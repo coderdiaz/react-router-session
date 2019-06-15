@@ -1,9 +1,11 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import BaseLayout from './components/BaseLayout';
 
-function App() {
-  return (
-    <div className="App"></div>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <BaseLayout />
+  </BrowserRouter>
+);
 
 export default App;
